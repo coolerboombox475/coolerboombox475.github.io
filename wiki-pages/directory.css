@@ -1,0 +1,64 @@
+:root {
+    --background: #010f0f; /* main content background */
+    --background-dark: #000808; /* sidebar background */
+    --background-light: #032727; /* background background */
+    --text: #acffcc; /* regular text */
+    --light-accent: #19ff9f; /* link */
+  }
+
+body {
+    font-family: Monospace;
+    background: black;
+    font-size: 14px;
+    color: #c9ffac;
+}
+
+#content {
+    width: 550px;
+    height: 1000px;
+    padding: 20px;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+
+
+a {
+    color: var(--light-accent);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--lighter-accent);
+}
+
+
+div#collapsed {
+    overflow: hidden;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+a#top {
+    font-weight: bold;
+}
+
+pre {
+    margin: 0;
+    font-weight: bold;
+    color: var(--light-accent);
+    font-size: 13px;
+}
+
+#evil {
+    color: red;
+    font-family: Papyrus;
+    font-size: 30px;
+    font-weight: bold;
+    animation: evil 0.5s infinite alternate;
+}
+
+@keyframes evil {
+    0% {color: red;};
+    100% {color: yellow;}
+}
