@@ -15,7 +15,7 @@ function typeWriter() {
 function updates() {
     document.getElementById("desk").setAttribute("src" , "images/boom/explain.gif");
     document.getElementById("text").innerHTML = '';
-    txt = "The site was last updated on 9/20/2024, with some new pages and graphics!"
+    txt = "The site was last updated on 10/6/2024! Almost nothing has changed other than a new host but bear with me here"
     i = 0
     typeWriter()
     document.getElementById("buttons").innerHTML = "<button onclick='chat1()'>How's your day?</button></span>";
